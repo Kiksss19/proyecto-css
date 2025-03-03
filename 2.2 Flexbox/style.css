@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: #1B998B;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li{
+    font-size: 1.5rem;
+    transition: all 0.4s;
+}
+
+.nav-links ul li :hover{
+    text-decoration: underline white 3px;
+    transform: scale(1.1);
+}
+
+.logo-container{
+    width: 10rem;
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+body{
+    background-color: #353B3C;
+}
+
+.card{
+    width: 80%;
+    border-radius: 10px;
+    background-color: #D6F8D6;
+    margin: 2rem;
+    display: flex;
+}
+
+main{
+    display: flex;
+    padding: 3rem;
+}
+
+.card-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rems;
+
+}
+
+.card-image-container{
+    flex: 1;
+}
+
+.card-image-container img{
+    width: 400px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+
+.card-info-container{
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.card-info-container button{
+    border: none;
+    background-color: #1B998B;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 8 rem 0 0 0;
+}
+
+.aside-panel{
+    width: 20%;
+    background-color: #1B998B;
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+}
+
+.aside-panel h2{
+    padding: 2rem 0 0.5rem 0;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    background-color: #1B998B;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.footer{
+ display: flex;
+ justify-content: center;
+ gap: 3rem;
+ align-items: center;
+}
+
+.footer img{
+    width: 3rem;
+}
